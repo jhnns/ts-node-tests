@@ -1,0 +1,25 @@
+{
+  "name": "ts-node-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS='--loader ts-node/esm' http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhnns/ts-node-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhnns/ts-node-tests/issues"
+  },
+  "homepage": "https://github.com/jhnns/ts-node-tests#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.0",
+    "ts-node": "^10.4.0"
+  }
+}
